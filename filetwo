@@ -1,2 +1,54 @@
 
 
+
+git init
+
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+touch file1
+git status
+git add file1
+git status
+git commit -m "test commit" file1
+git status
+git log
+git show cid
+
+===========================
+touch file3 file4 file5
+git status
+git add file3 file4 file5
+or
+git add *
+or
+git add .
+or
+git add -A
+git status
+git commit -m "label"
+
+git reset HEAD file-name (staging to workspace)
+or
+git reset HEAD * 
+
+git reset --soft cid (local to staging/index)
+
+git reset --mixed cid  (local to workspace)
+
+git reset --hard cid (to delete commit info)
+
+
+
+
+
+
+
+
+
+
+
+
+
